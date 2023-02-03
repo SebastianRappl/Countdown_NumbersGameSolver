@@ -56,8 +56,8 @@ public class Handler extends VBox{
 		
 		numbersBox = new HBox();
 		numbersBox.setAlignment(Pos.CENTER);
-		// loop to fill in the six numberfields 
 		
+		// loop to fill in the six numberfields 	
 		for(int i=0; i<6; i++) {
 			
 			numberField[i] = new NumberField(Color.NAVY, Color.WHITE, 100, 50, 20,0);
